@@ -103,7 +103,7 @@ Open `api.http`
 
 ### JetBrains
 
-Open http-client.env.json, change `port`, if you have modified in the .env, the value of `PORT_API`
+Open `http-client.env.json`, change `port`, if you have modified in the .env, the value of `PORT_API`
 
 ### VSCode
 
