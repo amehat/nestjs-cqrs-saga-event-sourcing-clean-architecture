@@ -1,0 +1,22 @@
+@PORT_API = 3000
+
+GET http://localhost:{{port}}
+content-type: application/json
+
+###
+POST http://localhost:{{port}}/appointment HTTP/1.1
+content-type: application/json
+
+{
+  "hour": "4:00 pm",
+  "date": "Monday, March 18, 2023",
+  "firstName": "Obi-Wan",
+  "lastName": "Kenobi",
+  "email": "o.kenobi@starwars.com",
+  "nameDoctor": "Yoda"
+}
+
+###
+
+GET http://localhost:{{port}}/appointment HTTP/1.1
+content-type: application/json
