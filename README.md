@@ -74,19 +74,27 @@ yarn test:bdd
 ```
 npm run test:unit
 
+npm run test:unit:watch // watch mode
+
 // or
 
 yarn test:unit
+
+yarn test:unit:watch // watch mode
 ```
 
 ## Run integration tests
 
 ```
-npm run test:unit
+npm run test:int
+
+npm run test:int:watch // watch mode
 
 // or
 
-yarn test:unit
+yarn test:int
+
+yarn test:int:watch // watch mode
 ```
 
 ## See route results with JetBrains or VSCode editors
